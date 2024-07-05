@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 const socketInitialize = () => {
-  const socket = io("");
+  const socket = io("https://draw-together-backend-2efm.onrender.com");
   return socket;
 };
 
